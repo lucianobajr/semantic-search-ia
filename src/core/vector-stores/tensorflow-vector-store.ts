@@ -1,4 +1,3 @@
-import "dotenv/config";
 import "@tensorflow/tfjs-backend-cpu";
 
 import { RedisClientType } from "redis";

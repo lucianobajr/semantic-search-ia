@@ -1,12 +1,12 @@
 # Semantic Search
 
+![concept](https://github.com/lucianobajr/semantic-search/assets/45442173/0803ae2f-db07-4e7d-b33e-fb1017cd8c5e)
+
 A busca semântica é uma abordagem avançada na área de processamento de linguagem natural (PLN) que visa melhorar a precisão e relevância dos resultados de busca ao compreender o significado semântico das consultas dos usuários e o conteúdo dos documentos a serem buscados. Em contraste com a busca baseada em palavras-chave tradicional, onde os resultados são correspondências exatas de palavras individuais, a busca semântica considera o contexto, a intenção e as relações entre as palavras e frases.
 
 Essa abordagem envolve o uso de técnicas de PLN, como análise semântica, processamento de linguagem natural profundo e aprendizado de máquina, para entender a linguagem humana em um nível mais profundo. Isso permite que os mecanismos de busca compreendam a intenção por trás das consultas dos usuários e identifiquem documentos que sejam semanticamente relevantes, mesmo que não contenham exatamente as mesmas palavras-chave.
 
 A busca semântica é usada em diversas aplicações, como motores de busca na web, sistemas de recomendação, assistentes virtuais e análise de sentimentos. Ela ajuda a melhorar a experiência do usuário, oferecendo resultados mais relevantes e úteis, independentemente das variações nas palavras-chave usadas nas consultas de pesquisa.
-
-![concept](https://github.com/lucianobajr/semantic-search/assets/45442173/0803ae2f-db07-4e7d-b33e-fb1017cd8c5e)
 
 ## Fine Tuning
 
@@ -29,13 +29,36 @@ No contexto dos modelos de linguagem como o GPT-3.5, o fine-tuning permite perso
 *Se comporta como uma memória de longo prazo*
 
 
-[https://excalidraw.com/#json=bEzH2JbGKFtoNltGjzhqT,ZikWHYKwmmf1CUDEqdpQ0w][Exalidraw]
+## Links Úteis
 
-[LangChain][https://js.langchain.com/docs/get_started/introduction/]
+[LangChain](https://js.langchain.com/docs/get_started/introduction/)
+[Exalidraw](https://excalidraw.com/#json=bEzH2JbGKFtoNltGjzhqT,ZikWHYKwmmf1CUDEqdpQ0w)
 
 ## Redis
 
 ```sh
 
 $ docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+```
+
+## Executar
+
+### Install
+
+```sh
+
+$ pnpm i
+```
+
+### Load data
+
+```sh
+
+$ pnpm load
+```
+
+### Semantic Search main
+```sh
+
+$ pnpm main
 ```

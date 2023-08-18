@@ -5,12 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@huggingface/agents':
-    specifier: ^0.0.5
-    version: 0.0.5
-  '@huggingface/hub':
-    specifier: ^0.8.4
-    version: 0.8.4
   '@huggingface/inference':
     specifier: ^1.8.0
     version: 1.8.0
@@ -289,27 +283,8 @@ packages:
     dev: true
     optional: true
 
-  /@huggingface/agents@0.0.5:
-    resolution: {integrity: sha512-h3mutXX0sFg4o9ZDHh3gzsF+qydcrTW9MVll2g/IVrNiQ0pSfXZqOQPRnfd85XU49buY3Zd1oHUDI0Bz8PznJw==}
-    engines: {node: '>=18'}
-    dependencies:
-      '@huggingface/inference': 2.6.1
-    dev: false
-
-  /@huggingface/hub@0.8.4:
-    resolution: {integrity: sha512-171USyFhbNdZy/mfWTQYRQia9czjfkcV/9TA/QoCVD702659dmIfvnYQMmLuDnTDSVSMZE8xzkZaA9qX0c4ioQ==}
-    engines: {node: '>=18'}
-    dependencies:
-      hash-wasm: 4.9.0
-    dev: false
-
   /@huggingface/inference@1.8.0:
     resolution: {integrity: sha512-Dkh7PiyMf6TINRocQsdceiR5LcqJiUHgWjaBMRpCUOCbs+GZA122VH9q+wodoSptj6rIQf7wIwtDsof+/gd0WA==}
-    engines: {node: '>=18'}
-    dev: false
-
-  /@huggingface/inference@2.6.1:
-    resolution: {integrity: sha512-qFYchgOCPeEkZJKiSr7Kz62QwukJtgkeQCT7Q0SSKUcvHpTQVNJp6i/JrJMR4dBdzQysJ1SZDC0pLBBnnskTag==}
     engines: {node: '>=18'}
     dev: false
 
@@ -1071,10 +1046,6 @@ packages:
 
   /has-unicode@2.0.1:
     resolution: {integrity: sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==}
-    dev: false
-
-  /hash-wasm@4.9.0:
-    resolution: {integrity: sha512-7SW7ejyfnRxuOc7ptQHSf4LDoZaWOivfzqw+5rpcQku0nHfmicPKE51ra9BiRLAmT8+gGLestr1XroUkqdjL6w==}
     dev: false
 
   /html-encoding-sniffer@3.0.0:
