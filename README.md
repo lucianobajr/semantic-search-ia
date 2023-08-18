@@ -1,6 +1,6 @@
 # Semantic Search
 
-![concept](https://github.com/lucianobajr/semantic-search/assets/45442173/0803ae2f-db07-4e7d-b33e-fb1017cd8c5e)
+![concept](https://github.com/lucianobajr/semantic-search-ia/assets/45442173/5a7b7fd0-60c9-4fda-a187-cca13a8ecb42)
 
 A busca semântica é uma abordagem avançada na área de processamento de linguagem natural (PLN) que visa melhorar a precisão e relevância dos resultados de busca ao compreender o significado semântico das consultas dos usuários e o conteúdo dos documentos a serem buscados. Em contraste com a busca baseada em palavras-chave tradicional, onde os resultados são correspondências exatas de palavras individuais, a busca semântica considera o contexto, a intenção e as relações entre as palavras e frases.
 
